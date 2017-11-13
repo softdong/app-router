@@ -51,6 +51,6 @@ router.back();
 <header class="bar bar-nav">
 	<a router-back>返回</a>
 	<h1 class="title">个人信息</h1>
-	<a router-to="">设置</a>
+	<a router-to="setting">设置</a>
 </header>
 ```
