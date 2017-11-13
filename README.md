@@ -49,8 +49,8 @@ router.back();
 
 ```
 <header class="bar bar-nav">
-	<a class="icon icon-app-17 pull-left" style="color:white" router-back></a>
-	<h1 class="title" @click="toTop">设备</h1>
-	<a class="icon icon-app-14 pull-right" router-to="selfcheck">&nbsp;自检</a>
+	<a router-back>返回</a>
+	<h1 class="title">个人信息</h1>
+	<a router-to="">设置</a>
 </header>
 ```
